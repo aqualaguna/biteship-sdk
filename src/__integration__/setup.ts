@@ -1,0 +1,27 @@
+/**
+ * Integration test setup
+ * 
+ * These tests require a valid Biteship API key.
+ * Set the BITESHIP_API_KEY environment variable before running integration tests.
+ * 
+ * Example:
+ * BITESHIP_API_KEY=your-test-api-key npm run test:integration
+ */
+
+export const getTestConfig = () => {
+  const apiKey = process.env.BITESHIP_API_KEY;
+  
+  if (!apiKey) {
+    throw new Error(
+      'BITESHIP_API_KEY environment variable is required for integration tests. ' +
+      'Please set it before running integration tests.'
+    );
+  }
+
+  return {
+    apiKey,
+    baseUrl: process.env.BITESHIP_BASE_URL || 'https://api.biteship.com',
+    timeout: 30000,
+  };
+};
+
