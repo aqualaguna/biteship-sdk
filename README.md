@@ -5,13 +5,13 @@ A TypeScript SDK for interacting with the Biteship API. This SDK provides a clea
 ## Installation
 
 ```bash
-npm install @biteship/sdk
+npm install biteship-sdk
 ```
 
 ## Quick Start
 
 ```typescript
-import { Biteship } from '@biteship/sdk';
+import { Biteship } from 'biteship-sdk';
 
 const biteship = new Biteship({
   apiKey: 'your-api-key-here',
@@ -271,7 +271,7 @@ import {
   CreateOrderRequest,
   OrderResponse,
   // ... and more
-} from '@biteship/sdk';
+} from 'biteship-sdk';
 ```
 
 ## Error Handling
