@@ -1,6 +1,20 @@
 # Biteship SDK
 
+[![npm version](https://img.shields.io/npm/v/biteship-sdk.svg)](https://www.npmjs.com/package/biteship-sdk)
+[![npm downloads](https://img.shields.io/npm/dm/biteship-sdk.svg)](https://www.npmjs.com/package/biteship-sdk)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
+
 A TypeScript SDK for interacting with the Biteship API. This SDK provides a clean, type-safe interface for all Biteship API endpoints.
+
+## Features
+
+- ✅ **Full TypeScript Support** - Complete type definitions for all API requests and responses
+- ✅ **Modular Architecture** - Clean, organized service classes for each API group
+- ✅ **Comprehensive Coverage** - Supports all Biteship API endpoints (Rates, Couriers, Locations, Maps, Draft Orders, Orders, Tracking)
+- ✅ **Well Tested** - Includes both unit tests and integration tests
+- ✅ **Easy to Use** - Simple, intuitive API design
+- ✅ **Error Handling** - Proper error handling with typed error responses
 
 ## Installation
 
@@ -357,7 +371,26 @@ Build the project:
 npm run build
 ```
 
+## Repository
+
+- **GitHub**: [https://github.com/aqualaguna/biteship-sdk](https://github.com/aqualaguna/biteship-sdk)
+- **NPM**: [https://www.npmjs.com/package/biteship-sdk](https://www.npmjs.com/package/biteship-sdk)
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
 ## License
 
 MIT
+
+## Support
+
+For issues, questions, or contributions, please visit the [GitHub repository](https://github.com/aqualaguna/biteship-sdk).
 
